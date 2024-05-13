@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Micro+5+Charted&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+@font-face {
+	font-family: "RocherColorGX";
+	src: url("https://res.cloudinary.com/dldmpwpcp/raw/upload/v1618681463/RocherColorGX-768140da_pydqor.woff2")
+	format("woff2 supports variations");
+	src: url("https://res.cloudinary.com/dldmpwpcp/raw/upload/v1618681463/RocherColorGX-768140da_pydqor.woff2")
+	format("woff2-variations");
+	font-display: swap;
+}
+
+header {
+    width: 100%;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px 50px 100px;
+}
+
+.container_header_nav {
+    display: flex;
+    gap: 40px;
+}
+
+.container_header_links {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #999999;
+    text-decoration: none;
+}
+
+.container_header_icones {
+    display: flex;
+    gap: 20px;
+}
+
+.menu_hamburguer {
+    display: none;
+}
+
+.container_main {
+    margin: 0 100px 0 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.cartao {
+    width: 300px;
+    height: 500px;
+}
+
+/* Cards */
+
+#Alexandre-Aquiles {
+    /* background-color: #C3FF93; */
+    background-image: url("https://wallpapers.com/images/high/aesthetic-drawing-of-nature-yhpiv4i2b6fznf5h.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    font-family: "Pixelify Sans", sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#Alexandre-Aquiles .principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#Alexandre-Aquiles .foto-principal {
+    width: 185px;
+    height: 185px;
+    border-radius: 20px;
+}
+
+#Alexandre-Aquiles .dados {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+#Alexandre-Aquiles .icones-tech {
+    margin-top: 10px;
+    height: 40px;
+    width: 190px;
+    border-radius: 20px;
+    border: #000 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#cacio{
+    background-image: url("./files/cacio/fundo_binario.jpg");
+}
+
+#cacio .container_cacio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 30px;
+}
+
+#cacio .container_cacio_apresentacao{
+    display: flex;
+    gap: 10px;
+    background-color: #FFFFFF;
+}
+
+#cacio .icone_robo{
+width: 30px;
+}
+
+#cacio .image_cacio{
+    width: 150px;
+    border-radius: 15px;
+}
+
+#cacio .text_cacio_titulo{
+font-family: "Kalam", cursive;
+font-size: 30px;
+color: #000;
+background-color: #FFFFFF;
+}
+
+#cacio .text_cacio{
+    font-family: "Kalam", cursive;
+    font-size: 20px;
+    color: #000;
+    background-color: #FFFFFF;
+}
+
+#cacio .icone_linkedin_cacio{
+    width: 50px;
+    background-color: #FFF;
+    transition: all 0.3s ease;
+}
+
+#cacio .icone_linkedin_cacio:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+#rafaelCarneiro{
+    background-image: url("./files/rafa/backgorund_rara.gif");
+   
+}
+
+#rafaelCarneiro .container_rafael{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+#rafaelCarneiro .image_rafael{
+    width: 150px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+#rafaelCarneiro .icone_rafael{
+    width: 80px;
+    height: 80px;
+}
+
+#rafaelCarneiro .text_rafa{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
+    color: #312B84;
+    padding: 20px;
+}
+
+#rafaelCarneiro .icone_rafael_carneiro{
+    width: 50px;
+    height: 50px;
+}
+
+#rafaelCarneiro .icone_rafael_carneiro:hover {
+    animation: pulinho 0.8s ease infinite; /* Aplica a animação */
+}
+
+/* Definição da animação */
+@keyframes pulinho {
+    0% {
+        transform: translateY(0); /* Posição inicial */
+    }
+    25% {
+        transform: translateY(-5px); /* Posição intermediária para cima */
+    }
+    75% {
+        transform: translateY(5px); /* Posição intermediária para baixo */
+    }
+    100% {
+        transform: translateY(0); /* Posição final (volta à posição inicial) */
+    }
+}
+
+#milenaEmmert {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    color: #84354C;
+    border-radius: 32px;
+  }
+  
+  .container-milenaEmmert::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 32px;
+    background: no-repeat center / cover url('https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    filter: opacity(50%);
+  }
+  
+  .conteudo-milenaEmmert {
+    width: 100%;
+    height: 100%;
+    padding: 32px 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .header-milenaEmmert {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .foto-milenaEmmert {
+    width: 100px;
+    border-radius: 50%;
+  }
+  
+  .informacoes-milenaEmmert {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .texto-animado-milenaEmmert {
+    width: 100%;
+    text-align: center;
+      font-family: "RocherColorGX";
+      font-size: 2em;
+      letter-spacing: 0.02em;
+      animation: sombra 1.5s ease-in-out infinite forwards alternate;
+  }
+  
+  @keyframes sombra {
+      from {
+          font-variation-settings: "BVEL" 80, "SHDW" 0;
+      }
+  
+      to {
+          font-variation-settings: "BVEL" 0, "SHDW" 80;
+      }
+  }
+  
+  .midias-milenaEmmert {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+  .midias-milenaEmmert img {
+    width: 24px;
+    transition: .3s all;
+  }
+  
+  .midias-milenaEmmert img:hover {
+    transform: scale(1.2);
+  }
+  
+  .texto-milenaEmmert {
+    padding: 16px;
+    background: #E1CBC7bb;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .titulo-milenaEmmert {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .sobre-milenaEmmert {
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1.1;
+    margin-bottom: 4px;
+  }
+  
+  .interesses-milenaEmmert {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .icones-milenaEmmert {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icones-milenaEmmert img {
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .overflow-interesses-milenaEmmert {
+    height: 58px;
+    overflow-y: auto;
+  }
+  
+
+#Fernando-Hansel {
+    background-image: url("./files/cartao-fernando/pokemon-background.jpg");
+    font-family: "Montserrat", sans-serif;
+    border: solid 2px #000;
+}
+
+#Fernando-Hansel .principal {
+    padding: 25px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#Fernando-Hansel .meu-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Fernando-Hansel .meu-avatar img {
+    height: 200px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#Fernando-Hansel .meus-dados {
+    text-align: center;
+    color: #000;
+}
+
+#Fernando-Hansel .meus-dados h2 {
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+#Fernando-Hansel .meus-dados p {
+    font-size: 20px;
+} 
+
+#Fernando-Hansel .gif-pikachu {
+    margin: 0 auto;
+}
+
+#Fernando-Hansel .gif-pikachu img {
+    height: 60px;
+    width: auto;
+}
+
+
+#beatrizCampos {
+    background-image: url("./files/beaCampos/backgrond_bea.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#beatrizCampos .container_beatriz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+#beatrizCampos .image_beatriz {
+    width: 100px;
+    height: 120px;
+}
+
+#beatrizCampos .background_text_beatriz {
+    background-color: #FFFAF0;
+    border-radius: 20px;
+    width: 230px;
+    height: 150px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#beatrizCampos .text_beatriz {
+    font-family: "Poetsen One", sans-serif;
+    font-size: 20px;
+    color: #F0E68C;
+}
+
+.logo_linkedin_beatriz{
+    height: 50px;
+    width: 50px;
+}
+
+.footer_container {
+    
+    width: 100%;
+    background-image: url("files/background-footer.png");
+    background-repeat: no-repeat;
+}
+
+.footer_container_conteudo {
+    margin: 0 100px 0 100px;
+    height: 207px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_nome_empresas {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.footer_logos_empresas {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_logos_empresas_icones {
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+
+/*Responsividade Funcionando ^^*/
+@media (max-width: 365px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+    }
+
+    .container_header_nav {
+        display: none;
+    }
+
+    .container_header {
+        width: 360px;
+        display: flex;
+        margin: 0px;
+    }
+
+    .container_header_icones {
+        display: none;
+    }
+
+    .logo_devboard {
+        width: 201px;
+        height: 45px;
+    }
+
+    .container_main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footer_container_conteudo {
+        margin: 0px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .menu_hamburguer {
+        display: block;
+    }
+}
+
+/*Manipulação do DOM - Ativando o modo dark e menu hamburguer*/
+
+.modo-dark {
+    background-color: #000;
+}
+
+.modo-dark .container_header_links {
+    color: #FFFFFF;
+}
+
+.container_header_nav.ativo {
+    display: block;
+}
+
+.menu_ativo {
+    display: flex;
+    flex-direction: column;
+}
