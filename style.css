@@ -7,12 +7,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
 @font-face {
-	font-family: "RocherColorGX";
-	src: url("https://res.cloudinary.com/dldmpwpcp/raw/upload/v1618681463/RocherColorGX-768140da_pydqor.woff2")
-	format("woff2 supports variations");
-	src: url("https://res.cloudinary.com/dldmpwpcp/raw/upload/v1618681463/RocherColorGX-768140da_pydqor.woff2")
-	format("woff2-variations");
-	font-display: swap;
+    font-family: "RocherColorGX";
+    src: url("https://res.cloudinary.com/dldmpwpcp/raw/upload/v1618681463/RocherColorGX-768140da_pydqor.woff2") format("woff2 supports variations");
+    src: url("https://res.cloudinary.com/dldmpwpcp/raw/upload/v1618681463/RocherColorGX-768140da_pydqor.woff2") format("woff2-variations");
+    font-display: swap;
 }
 
 header {
@@ -79,6 +77,12 @@ header {
     gap: 30px;
 }
 
+.titulo-alexandre {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 #Alexandre-Aquiles .foto-principal {
     width: 185px;
     height: 185px;
@@ -102,11 +106,11 @@ header {
     gap: 10px;
 }
 
-#cacio{
+#cacio {
     background-image: url("./files/cacio/fundo_binario.jpg");
 }
 
-#cacio .container_cacio{
+#cacio .container_cacio {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -115,54 +119,54 @@ header {
     margin: 30px;
 }
 
-#cacio .container_cacio_apresentacao{
+#cacio .container_cacio_apresentacao {
     display: flex;
     gap: 10px;
     background-color: #FFFFFF;
 }
 
-#cacio .icone_robo{
-width: 30px;
+#cacio .icone_robo {
+    width: 30px;
 }
 
-#cacio .image_cacio{
+#cacio .image_cacio {
     width: 150px;
     border-radius: 15px;
 }
 
-#cacio .text_cacio_titulo{
-font-family: "Kalam", cursive;
-font-size: 30px;
-color: #000;
-background-color: #FFFFFF;
+#cacio .text_cacio_titulo {
+    font-family: "Kalam", cursive;
+    font-size: 30px;
+    color: #000;
+    background-color: #FFFFFF;
 }
 
-#cacio .text_cacio{
+#cacio .text_cacio {
     font-family: "Kalam", cursive;
     font-size: 20px;
     color: #000;
     background-color: #FFFFFF;
 }
 
-#cacio .icone_linkedin_cacio{
+#cacio .icone_linkedin_cacio {
     width: 50px;
     background-color: #FFF;
     transition: all 0.3s ease;
 }
 
-#cacio .icone_linkedin_cacio:hover{
+#cacio .icone_linkedin_cacio:hover {
     transform: scale(1.1);
 }
 
 
 
 
-#rafaelCarneiro{
+#rafaelCarneiro {
     background-image: url("./files/rafa/backgorund_rara.gif");
-   
+
 }
 
-#rafaelCarneiro .container_rafael{
+#rafaelCarneiro .container_rafael {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,46 +174,54 @@ background-color: #FFFFFF;
     margin: 25px;
 }
 
-#rafaelCarneiro .image_rafael{
+#rafaelCarneiro .image_rafael {
     width: 150px;
     height: 150px;
     border-radius: 10px;
 }
 
-#rafaelCarneiro .icone_rafael{
+#rafaelCarneiro .icone_rafael {
     width: 80px;
     height: 80px;
 }
 
-#rafaelCarneiro .text_rafa{
+#rafaelCarneiro .text_rafa {
     font-family: "Shadows Into Light", cursive;
     font-size: 30px;
     color: #312B84;
     padding: 20px;
 }
 
-#rafaelCarneiro .icone_rafael_carneiro{
+#rafaelCarneiro .icone_rafael_carneiro {
     width: 50px;
     height: 50px;
 }
 
 #rafaelCarneiro .icone_rafael_carneiro:hover {
-    animation: pulinho 0.8s ease infinite; /* Aplica a animação */
+    animation: pulinho 0.8s ease infinite;
+    /* Aplica a animação */
 }
 
 /* Definição da animação */
 @keyframes pulinho {
     0% {
-        transform: translateY(0); /* Posição inicial */
+        transform: translateY(0);
+        /* Posição inicial */
     }
+
     25% {
-        transform: translateY(-5px); /* Posição intermediária para cima */
+        transform: translateY(-5px);
+        /* Posição intermediária para cima */
     }
+
     75% {
-        transform: translateY(5px); /* Posição intermediária para baixo */
+        transform: translateY(5px);
+        /* Posição intermediária para baixo */
     }
+
     100% {
-        transform: translateY(0); /* Posição final (volta à posição inicial) */
+        transform: translateY(0);
+        /* Posição final (volta à posição inicial) */
     }
 }
 
@@ -218,9 +230,9 @@ background-color: #FFFFFF;
     position: relative;
     color: #84354C;
     border-radius: 32px;
-  }
-  
-  .container-milenaEmmert::before {
+}
+
+.container-milenaEmmert::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -228,9 +240,9 @@ background-color: #FFFFFF;
     border-radius: 32px;
     background: no-repeat center / cover url('https://images.pexels.com/photos/255377/pexels-photo-255377.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     filter: opacity(50%);
-  }
-  
-  .conteudo-milenaEmmert {
+}
+
+.conteudo-milenaEmmert {
     width: 100%;
     height: 100%;
     padding: 32px 16px;
@@ -238,103 +250,104 @@ background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  }
-  
-  .header-milenaEmmert {
+}
+
+.header-milenaEmmert {
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
     gap: 8px;
-  }
-  
-  .foto-milenaEmmert {
+}
+
+.foto-milenaEmmert {
     width: 100px;
     border-radius: 50%;
-  }
-  
-  .informacoes-milenaEmmert {
+}
+
+.informacoes-milenaEmmert {
     display: flex;
     flex-direction: column;
     gap: 8px;
-  }
-  
-  .texto-animado-milenaEmmert {
+}
+
+.texto-animado-milenaEmmert {
     width: 100%;
     text-align: center;
-      font-family: "RocherColorGX";
-      font-size: 2em;
-      letter-spacing: 0.02em;
-      animation: sombra 1.5s ease-in-out infinite forwards alternate;
-  }
-  
-  @keyframes sombra {
-      from {
-          font-variation-settings: "BVEL" 80, "SHDW" 0;
-      }
-  
-      to {
-          font-variation-settings: "BVEL" 0, "SHDW" 80;
-      }
-  }
-  
-  .midias-milenaEmmert {
+    font-family: "RocherColorGX";
+    font-size: 2em;
+    letter-spacing: 0.02em;
+    animation: sombra 1.5s ease-in-out infinite forwards alternate;
+}
+
+@keyframes sombra {
+    from {
+        font-variation-settings: "BVEL" 80, "SHDW" 0;
+    }
+
+    to {
+        font-variation-settings: "BVEL" 0, "SHDW" 80;
+    }
+}
+
+.midias-milenaEmmert {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 8px;
-  }
-  .midias-milenaEmmert img {
+}
+
+.midias-milenaEmmert img {
     width: 24px;
     transition: .3s all;
-  }
-  
-  .midias-milenaEmmert img:hover {
+}
+
+.midias-milenaEmmert img:hover {
     transform: scale(1.2);
-  }
-  
-  .texto-milenaEmmert {
+}
+
+.texto-milenaEmmert {
     padding: 16px;
     background: #E1CBC7bb;
     border-radius: 8px;
     text-align: center;
-  }
-  
-  .titulo-milenaEmmert {
+}
+
+.titulo-milenaEmmert {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 8px;
-  }
-  
-  .sobre-milenaEmmert {
+}
+
+.sobre-milenaEmmert {
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 1.1;
     margin-bottom: 4px;
-  }
-  
-  .interesses-milenaEmmert {
+}
+
+.interesses-milenaEmmert {
     display: flex;
     flex-direction: column;
     gap: 8px;
-  }
-  
-  .icones-milenaEmmert {
+}
+
+.icones-milenaEmmert {
     display: flex;
     justify-content: space-between;
-  }
-  
-  .icones-milenaEmmert img {
+}
+
+.icones-milenaEmmert img {
     cursor: pointer;
     border-radius: 50%;
     border: none;
-  }
-  
-  .overflow-interesses-milenaEmmert {
+}
+
+.overflow-interesses-milenaEmmert {
     height: 58px;
     overflow-y: auto;
-  }
-  
+}
+
 
 #Fernando-Hansel {
     background-image: url("./files/cartao-fernando/pokemon-background.jpg");
@@ -374,7 +387,7 @@ background-color: #FFFFFF;
 
 #Fernando-Hansel .meus-dados p {
     font-size: 20px;
-} 
+}
 
 #Fernando-Hansel .gif-pikachu {
     margin: 0 auto;
@@ -423,7 +436,7 @@ background-color: #FFFFFF;
     color: #F0E68C;
 }
 
-.logo_linkedin_beatriz{
+.logo_linkedin_beatriz {
     height: 50px;
     width: 50px;
 }
