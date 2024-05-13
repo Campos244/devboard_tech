@@ -244,6 +244,7 @@ background-color: #FFFFFF;
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
+    gap: 8px;
   }
   
   .foto-milenaEmmert {
@@ -427,7 +428,7 @@ background-color: #FFFFFF;
 }
 
 .footer_container {
-    
+    margin-top: 30px;
     width: 100%;
     background-image: url("files/background-footer.png");
     background-repeat: no-repeat;
